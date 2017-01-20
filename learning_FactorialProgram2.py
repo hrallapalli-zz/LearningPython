@@ -1,4 +1,4 @@
-# Factorial program: learning_FactorialProgram2.copyright
+# Factorial program: learning_FactorialProgram2.py
 
 # Returns the factorial of the argument "number"
 def factorial(number):
@@ -16,4 +16,3 @@ def factorial(number):
 userInput = input("Enter a non-negative integer to take the factorial of: ")
 
 factorial_userInput = factorial(userInput)
-print(factorial_userInput)
