@@ -16,3 +16,8 @@ def factorial(number):
 userInput = input("Enter a non-negative integer to take the factorial of: ")
 
 factorial_userInput = factorial(userInput)
+
+print(factorial_userInput)
+
+
+print(factorial(100))
