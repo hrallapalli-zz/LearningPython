@@ -7,7 +7,7 @@ def Fibonacci(n):  # Returns the n-th Fibonacci number
     while i<n-1:
             FibSeq = [FibSeq[1], FibSeq[0]+FibSeq[1]] # Clean and memory frugal storage
             i=i+1
-    return FibSeq[0]
+    return FibSeq[1]
 
 userInput = input("Enter the term of the Fibonacci sequence: ")
 
